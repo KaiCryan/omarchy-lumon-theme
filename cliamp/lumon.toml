@@ -1,0 +1,16 @@
+# Lumon — cliamp theme
+# bg/fg match the rest of the set exactly (bg #1b2d40, fg #d6e2ee). accent is
+# pushed brighter/more saturated than the desktop's #6fb8e3 on purpose — cliamp
+# has no wallpaper or window chrome to lean on, so the title/seek bar/selected
+# track need a CRT-glow pop of their own to read as Lumon rather than just
+# "whatever the terminal's ANSI colours happen to be."
+# green/yellow/red are deliberately shades of the same cold blue, not
+# traffic-light colours — the severed floor doesn't do warm.
+
+bg        = "#1b2d40"
+accent    = "#3ad6ff"
+bright_fg = "#ffffff"
+fg        = "#d6e2ee"
+green     = "#5e95bc"
+yellow    = "#6fa4c9"
+red       = "#4d86b0"

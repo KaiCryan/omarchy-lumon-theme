@@ -38,6 +38,31 @@ wallpaper or a greeting.
   and `omarchy update`.
 - **Branding** — `fastfetch` recoloured green→cyan with the Lumon globe as its
   logo, and the same emblem for `omarchy about`.
+- **cliamp** — a Lumon UI theme for the [cliamp](https://github.com/bjarneo/cliamp)
+  terminal music player, if it's installed, plus two Lua plugins:
+  - `lumon-mdr` — a custom **visualizer**. Instead of an equaliser, the floor
+    is a dense, perfectly aligned grid of numbers — every cell always full,
+    like a wall of refined data rather than a bar chart. The music changes
+    how fast each column refines its value (idle: barely moves; loud: cycles
+    briskly), plus one bracketed cluster of "flagged" numbers drifting across
+    a row at a slow, deliberate pace. Boxed in a hairline CRT-panel frame
+    with a coarse scanline tint on alternating rows and a footer line
+    (`MDR-7 STATUS: NOMINAL ... REC 04:12`) with a timer that burns in for
+    the length of the session. Set as the default visualizer.
+  - `lumon-flavor` — the rest of the terminal, in two voices. A cold machine
+    voice runs the boot sequence on start (`SELF-TEST...` /
+    `CALIBRATING WAVEFORM SENSORS...` / `MODULE READY.`) and answers **F9**
+    with a one-line diagnostics readout that cycles on repeat presses
+    (`CORE TEMP: 41C -- NOMINAL`, `OUTIE STATUS: UNVERIFIABLE`, …). A
+    corporate-human voice handles the welcome line, an occasional remark on
+    track change ("This selection has been approved by the board.",
+    sometimes rendered through a bit of static — `Th▓s selection...` — like a
+    dying CRT), and a farewell notification on quit.
+
+  Both plugins are trusted automatically by `install.sh` — they're ours, and
+  you can read them at `cliamp/plugins/*.lua` before it does. If you're
+  installing this on someone else's machine, read them first; `cliamp plugins
+  trust` shows the same SHA-256 + permissions prompt either way.
 
 ## Install
 
