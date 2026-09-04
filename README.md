@@ -1,6 +1,24 @@
 # omarchy-lumon-theme
 
-> Part of **[Omarchy · Lumon Industries](https://github.com/KaiCryan/omarchy-lumon)** — a whole-system _Severance_ theme for Omarchy. This repo is one piece; the hub links the rest.
+<!-- lumon-set:start -->
+> **Part of [Omarchy · Lumon Industries](https://github.com/KaiCryan/omarchy-lumon)** — a whole-system *Severance* theme for Omarchy.
+
+<details><summary><strong>The full set</strong></summary>
+
+| Repo | |
+|---|---|
+| [omarchy-lumon](https://github.com/KaiCryan/omarchy-lumon) | **the hub** — install everything, screenshots, the whole pitch |
+| [omarchy-lumon-boot](https://github.com/KaiCryan/omarchy-lumon-boot) | Plymouth boot splash — Lumon globe, matching LUKS prompt |
+| [omarchy-lumon-lock](https://github.com/KaiCryan/omarchy-lumon-lock) | lock screen — prompts *“Enter your access code”* |
+| [omarchy-lumon-greeting](https://github.com/KaiCryan/omarchy-lumon-greeting) | terminal greeting — 19 animations, then `fastfetch` |
+| [omarchy-lumon-wallpapers](https://github.com/KaiCryan/omarchy-lumon-wallpapers) | ASCII crew portraits + 4K brand set, hourly cycler |
+| [omarchy-lumon-screensaver](https://github.com/KaiCryan/omarchy-lumon-screensaver) | capped-fps `ttfx` effects + an ambient scene reel |
+| **omarchy-lumon-theme** | colour scheme, Hyprland look’n’feel, `fastfetch` + about branding &nbsp;·&nbsp; ← you are here |
+| [omarchy-desktop-quote](https://github.com/KaiCryan/omarchy-desktop-quote) | a rotating quote placard over the wallpaper |
+| [omarchy-lumon-assets](https://github.com/KaiCryan/omarchy-lumon-assets) | shared ASCII art, fonts and build tools |
+
+</details>
+<!-- lumon-set:end -->
 
 The connective tissue of the Lumon / *Severance* setup for
 [Omarchy](https://omarchy.org) — the bits that aren't a screensaver, a
@@ -32,14 +50,3 @@ Backs up your existing `fastfetch/config.jsonc` and `branding/about.txt` first
 ./uninstall.sh          # removes the look'n'feel block, restores the backups
 omarchy theme set <x>   # switch away from the Lumon colours
 ```
-
-## The rest of the set
-
-| | |
-|---|---|
-| [omarchy-lumon-greeting](https://github.com/KaiCryan/omarchy-lumon-greeting) | animated terminal greeting |
-| [omarchy-lumon-screensaver](https://github.com/KaiCryan/omarchy-lumon-screensaver) | idle-screen reels |
-| [omarchy-lumon-wallpapers](https://github.com/KaiCryan/omarchy-lumon-wallpapers) | wallpapers + hourly cycle |
-| [omarchy-lumon-lock](https://github.com/KaiCryan/omarchy-lumon-lock) | lock screen |
-| [omarchy-lumon-boot](https://github.com/KaiCryan/omarchy-lumon-boot) | Plymouth splash |
-| [omarchy-lumon-assets](https://github.com/KaiCryan/omarchy-lumon-assets) | shared ASCII art, fonts, tools |
